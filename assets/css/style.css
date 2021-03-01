@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200&display=swap');
+
+/* ----------------------------- General styling */
+
+* {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+.main-footer {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+
+#box-1 {
+    background-color: yellow;
+    height: 80vh;
+}
+
+#box-2 {
+    background-color: blue;
+}
+
+#box-3 {
+    background-color: green;
+}
+
+#box-4 {
+    background-color: orange;
+}
+
+#box-5 {
+    background-color: blueviolet;
+}
+
+#box-6 {
+    background-color: chartreuse;
+}
+

@@ -2,10 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
 
-/* ----------------------------- General styling */
+/* --------------- General CSS styling --------------- */
 
 * {
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    max-width: 100%;
 }
 
 .main-footer {
@@ -14,20 +19,31 @@
     color: black;
 }
 
-.container {
-    padding: 0 5px;
-}
-
 .navbar {
-    padding: 3px 12px;
+    padding: 4px 4px;
 }
 
-hr {
-    clear: both;
-    border: 1px solid transparent;
-    height: 0px;
+.container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
+.container-1 {
+    width: 100%;
+    margin: 0;
+}
+
+div {
+    display: block;
+}
+
+.row {
+    margin: 0;
+    width: 100%;
+}
+
+/*
 
 #feature-img {
     background-size: contain;
@@ -40,11 +56,11 @@ hr {
 }
 
 #feature-text {
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #fff;
+    color: rgb(0, 0, 0);
     text-align: center;
     font-weight: bolder;
     font-size: 4em;
@@ -52,9 +68,17 @@ hr {
     margin: 0;
 }
 
+*/
+
 .btn {
     font-family: 'Poppins', Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 12px;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 blockquote {
@@ -65,14 +89,22 @@ blockquote {
 #box-1 {
     text-align: center;
     font-family: 'Lato', sans-serif;
+    margin: 20px 0;
 }
 
-#box-2 {
-    background-color: blue;
+#box-2 img {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 #box-3 {
-    background-color: green;
+    height: auto;
+    width: 100%;
+    margin: 10px 0;
 }
 
 #box-4 {

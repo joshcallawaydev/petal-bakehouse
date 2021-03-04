@@ -18,7 +18,13 @@ figure {
     margin: 0;
 }
 
+
 /* --------------- Classes --------------- */
+
+
+.container {
+    padding: 0;
+}
 
 .navbar {
     font-weight: bold;
@@ -50,6 +56,7 @@ figure {
 
 .jumbotron {
     padding: 25px;
+    margin-bottom: 0;
 }
 
 .main-text {
@@ -85,24 +92,31 @@ figure {
 }
 
 .img-fluid {
-    border-radius: 70%;
+    width: 100%;
 }
 
 .about-div {
     margin-top: 20px;
     margin-bottom: 25px;
-}
-
-.color1 {
-    background-color: #f9dad081;
+    padding: 0;
 }
 
 .footer {
-    margin: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .footer a {
     padding: 15px;
+    font-size: 2rem;
+}
+
+.footer i {
+    color: #47624f;
+}
+
+.footer i:hover {
+    color: #ad6a6c;
 }
 
 /* --------------- ID's --------------- */
@@ -117,6 +131,141 @@ figure {
     margin-bottom: 20px;
 }
 
+
 #about-us-1 {
     padding: 20px;
+}
+
+/* --------------- Gallery styling with CSS Grid--------------- */
+
+.grid {
+    display: grid;
+}
+
+.grid img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+@media only screen and (min-width: 700px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.4fr 0.5fr 0.5fr 0.4fr 0.5fr 0.5fr;
+        background-size: cover;
+    }
+
+    .grid img {
+        max-width: 100%;
+        height: auto;
+        background-size: cover;
+    }
+
+    #img1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    #img2 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    #img3 {
+        grid-column: 1/3;
+        grid-row: 2/3;
+    }
+
+    #img4 {
+        grid-column: 1/2;
+        grid-row: 3/5;
+    }
+
+    #img5 {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+
+    #img6 {
+        grid-column: 2/3;
+        grid-row: 4/5;
+    }
+
+    #img7 {
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+
+    #img8 {
+        grid-column: 2/3;
+        grid-row: 5/6;
+    }
+
+    #img9 {
+        grid-column: 2/3;
+        grid-row: 5/6;
+    }
+
+}
+
+@media only screen and (min-width: 1100px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 0.6fr 0.6fr 0.8fr 0.5fr;
+        background-size: cover;
+    }
+
+    .grid img {
+        max-width: 100%;
+        height: auto;
+        background-size: cover;
+    }
+
+    #img1 {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    #img2 {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    #img3 {
+        grid-column: 3/5;
+        grid-row: 1/3;
+    }
+
+    #img4 {
+        grid-column: 1/2;
+        grid-row: 2/4;
+    }
+
+    #img5 {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    #img6 {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+
+    #img7 {
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+
+    #img8 {
+        grid-column: 4/5;
+        grid-row: 3/4;
+    }
+
+    #img9 {
+        grid-column: 3/4;
+        grid-row: 4/5;
+    }
 }

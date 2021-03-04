@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Petal Bakehouse</title>
+    <title>Petal Bakehouse | Fresh baked and delivered straight to your door</title>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
@@ -89,10 +89,10 @@
     <!---------- Feature text with jumbotron full width ---------->
 
 
-    <div class="container-fluid" id="container-1">
-        <div class="row jumbotron text-center">
+    <div class="container-fluid">
+        <div class="row jumbotron text-center padd">
             <div class="col-12">
-                <h1>"The best food i have ever tasted!"</h1>
+                <h1 id="quote">"The best food i have ever tasted!"</h1>
             </div>
         </div>
     </div>
@@ -100,13 +100,13 @@
     <!---------- Section 1 | What we offer | One section full width ---------->
 
     <div class="container-fluid">
-        <div class="row text-center" id="welcome">
+        <div class="row text-center padd" id="welcome">
             <div class="col-12">
-                <h1>What We Offer</h1>
+                <h1 class="text-uppercase main-text">What We Offer</h1>
             </div>
             <hr>
             <div class="col-12">
-                <p class="lead">We make bespoke made to order cakes, pastries and bread, using the finest local
+                <p class="p-text">We make bespoke made to order cakes, pastries and bread, using the finest local
                     ingredients and our <b>secret family recipes.</b> All delivered to your door, when you want it.</p>
             </div>
         </div>
@@ -115,49 +115,48 @@
     <!---------- Section 2 | Offerings | three responsive sections inc images ---------->
 
     <div class="container-fluid">
-        <div class="row text-center">
+        <div class="row text-center padd">
             <div class="col-xs-12 col-sm-6 col-md-4">
-                <img class="images1" src="/assets/images/pastry-img.jpg" alt="a cinnamon swirl">
-                <h3>Pastries</h3>
-                <p>Our pastries are made fresh every morning and delivered hot!</p>
+                <img class="images1" src="/assets/images/doughnuts-sm.jpg" alt="a stack of chocolate doughnuts">
+                <h3 class="h3-text">Pastries</h3>
+                <p class="p-text">Our pastries are made fresh every morning and delivered hot!</p>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-4">
-                <img class="images1" src="/assets/images/cakes.jpg" alt="a piece of chocolate cake">
-                <h3>Cake/Cheesecake</h3>
-                <p>We offer a range of cake options. From 12", 9" to mini's!</p>
+                <img class="images1" src="/assets/images/cheesecake-sm.jpg" alt="a piece of cheesecake with sauce poured on top">
+                <h3 class="h3-text">Cake/Cheesecake</h3>
+                <p class="p-text">We offer a range of cake options. From 12", 9" to mini's!</p>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-4">
-                <img class="images1" src="/assets/images/cheesecake-img.jpg" alt="a slice of fruit cheesecake">
-                <h3>Bread</h3>
-                <p>Teste the finest homemade bread, with only locally sourced ingredients and our secret recipes.</p>
+                <img class="images1" src="/assets/images/bread-sm-2.jpg" alt="fresh baked rolls">
+                <h3 class="h3-text">Bread</h3>
+                <p class="p-text">Teste the finest homemade bread, with only locally sourced ingredients and our secret recipes.</p>
             </div>
             <div class="col-12">
-                <button type="button" class="btn btn-success" href="order.html">Order Now</button>
+                <button type="button" class="btn btn-success order-btn" href="order.html">Order Now</button>
             </div>
         </div>
-        <hr class="my-4">
     </div>
 
     <!---------- Section 3 | About Us | Two responsive sections inc image ---------->
 
     <figure>
-        <div class="fixed-wrap">
-            <div class="fixed-img">
-                <img src="/assets/images/baking-oven.jpg" alt="two poeple baking in a kitchen">
+        <div class="fixed-wrap feat-img">
+            <div class="fixed">
             </div>
         </div>
     </figure>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12 col-lg-6">
-                <h2>About Us</h2>
-                <p>We are a small family run business that has been operating for 3 years. Charlotte, our lead baker and
+    <div class="container-fluid color1">
+        <div class="row padd">
+            <div class="col-md-12 col-lg-6 about-div">
+                <h2  class="text-uppercase main-text" id="about-us">About Us</h2>
+                <hr>
+                <p class="p-text" id="about-us-1">We are a small family run business that has been operating for 3 years. Charlotte, our lead baker and
                     food enthusiest has been tinkering with baking for as long as she can remember. Charlotte and the
                     rest of the team live locally to Portsmouth and <strong>love</strong> adding a south coast flair to
                     their baking style.</p>
             </div>
-            <div class="col-md-12 col-lg-6">
+            <div class="col-md-12 col-lg-6 about-div">
                 <img class="img-fluid" src="/assets/images/people-baking.jpg" alt="People Baking">
             </div>
         </div>
@@ -168,24 +167,24 @@
     <footer>
 
         <div class="container-fluid">
-            <div class="row text-center">
-                <div class="col-md-4 col-lg-4 social">
-                    <h4>Socials</h4>
+            <div class="row text-center padd">
+                <div class="col-md-4 col-lg-4 footer">
+                    <h4 class="text-uppercase">Socials</h4>
                     <hr>
-                    <a href="www.faccebook.com"><i class="fab fa-facebook-f"></i></a>
+                    <a href="www.facebook.com"><i class="fab fa-facebook-f"></i></a>
                     <a href="www.twitter.com"><i class="fab fa-twitter"></i></a>
                     <a href="www.google.com"><i class="fab fa-google"></i></a>
                     <a href="www.instagram.com"><i class="fab fa-instagram"></i></a>
                 </div>
-                <div class="col-md-4 col-lg-4">
-                    <h4>Contact</h4>
+                <div class="col-md-4 col-lg-4 footer">
+                    <h4 class="text-uppercase">Contact</h4>
                     <hr>
                     <p>01234 567890</p>
                     <p>order@petalbakehouse.co.uk</p>
                     <p>123 Somewhere St, Portsmouth, P00 0QS</p>
                 </div>
-                <div class="col-md-4 col-lg-4">
-                    <h4>Our Hours</h4>
+                <div class="col-md-4 col-lg-4 footer">
+                    <h4 class="text-uppercase">Our Hours</h4>
                     <hr>
                     <p>Monday - Friday: 17:00 - 21:00</p>
                     <p>Saturday: All day</p>
@@ -197,7 +196,7 @@
         <hr>
 
         <div class="container-fluid">
-            <div class="row text-center">
+            <div class="row text-center padd footer">
                 <div class="col-12" id="footer">
                     <a href="www.petalbakehouse.co.uk">
                         <p>Petal Bakehouse &#169; 2020</p>

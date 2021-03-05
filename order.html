@@ -35,22 +35,40 @@
                         <a class="nav-link" href="gallery.html">Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="price.html">Price</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="order.html">Order Form</a>
                     </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
             </div>
         </nav>
 
     </header>
 
+    <!---------- order form with bootstrap ----------->
 
+    <form class="padd">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="First Last" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
+        </div>
+        <div class="form-group">
+            <label for="options">Options</label>
+            <select class="form-control" id="options">
+                <option>Cake</option>
+                <option>Cheesecake</option>
+                <option>Pastries</option>
+                <option>Bread</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="order-detail-text-field">Order Details</label>
+            <textarea class="form-control" id="order-detail-text-field" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-success order-btn">Submit</button>
+    </form>
 
     <!---------- footer w/ responsive design. Inc socials, about and hours ---------->
 
@@ -89,7 +107,7 @@
             <div class="row text-center padd footer">
                 <div class="col-12" id="footer">
                     <a href="www.petalbakehouse.co.uk">
-                        <p>Petal Bakehouse &#169; 2020</p>
+                        <p id="weblink">Petal Bakehouse &#169; 2020</p>
                     </a>
                 </div>
 

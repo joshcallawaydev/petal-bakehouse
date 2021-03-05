@@ -18,6 +18,10 @@ figure {
     margin: 0;
 }
 
+footer {
+    background-color: #c6c8ee;
+}
+
 
 /* --------------- Classes --------------- */
 
@@ -106,6 +110,7 @@ figure {
     margin-bottom: 20px;
 }
 
+
 .footer a {
     padding: 15px;
     font-size: 2rem;
@@ -118,6 +123,7 @@ figure {
 .footer i:hover {
     color: #ad6a6c;
 }
+
 
 /* --------------- ID's --------------- */
 
@@ -134,6 +140,12 @@ figure {
 
 #about-us-1 {
     padding: 20px;
+}
+
+#weblink {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 2px 2px #47624f;
 }
 
 /* --------------- Gallery styling with CSS Grid--------------- */
@@ -153,7 +165,7 @@ figure {
     .grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 0.4fr 0.5fr 0.5fr 0.4fr 0.5fr 0.5fr;
+        grid-template-rows: 0.4fr 0.5fr 0.5fr 0.4fr 0.5fr;
         background-size: cover;
     }
 
@@ -207,14 +219,13 @@ figure {
         grid-column: 2/3;
         grid-row: 5/6;
     }
-
 }
 
 @media only screen and (min-width: 1100px) {
     .grid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 0.6fr 0.6fr 0.8fr 0.5fr;
+        grid-template-rows: 0.6fr 0.6fr 0.8fr;
         background-size: cover;
     }
 
@@ -264,8 +275,19 @@ figure {
         grid-row: 3/4;
     }
 
+    /* the below image is hidden at this breakpoint to improve white space between image gallery and footer */
+
     #img9 {
+
+        display: none;
         grid-column: 3/4;
         grid-row: 4/5;
     }
+
+}
+
+/* below is the CSS styling for the form */
+
+form label {
+    font-weight: 700;
 }

@@ -1,33 +1,39 @@
+/* general styling */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lato:ital,wght@0,300;1,300;1,400&display=swap');
 
-/* --------------- General styling --------------- */
-
 * {
-    padding: 0;
     margin: 0;
-    font-family: 'Inter', Arial, sans-serif;
-    color: #222;
+    padding: 0;
+    text-align: center;
+    font-family: 'Inter', Helvetica, sans-serif;
 }
 
-html, body {
-    height: 100%;
+header {
+    height: 80vh;
     width: 100%;
+    background-image: url(/assets/images/cupcake1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+header h1 {
+    margin-top: 8%;
+    font-size: 3.5rem;
+}
+
+hr {
+    margin: 1rem 1rem;
 }
 
 figure {
-    margin: 0;
+    margin-bottom: 0;
 }
 
-footer {
-    background-color: #c6c8ee;
-}
+/* ------------------ css classes below */
 
-
-/* --------------- Classes --------------- */
-
-
-.container {
-    padding: 0;
+.padd {
+    padding: 2rem 1rem;
 }
 
 .navbar {
@@ -39,127 +45,120 @@ footer {
     padding-right: 15px;
 }
 
-.carousel-inner img {
-    width: 100%;
-    height: 100%;
+.about-img {
+    border-radius: 50%;
+    height: 16rem;
+    width: 15rem;
 }
 
-.btn-success {
-    font-weight: bold;
-    background-color: #ad6a6c;
+.section-1 h1 {
+    font-size: 2.5rem;
+}
+
+.section-1 > p {
+    font-size: 1.5rem;
+}
+
+.section-2 {
+    background-color: #f1edee;
+    transition: background-color 3s linear;
+}
+
+.section-2 h3 {
+    padding: 1rem 0;
+}
+
+.section-2 h3 {
+    font-size: 2.5rem;
+}
+
+.section-2 p {
+    padding-top: 0;
+}
+
+.btn {
+    background-color: #5f6460;
     border: none;
 }
 
-.btn-success:hover {
-    background-color: #47624f;
+.btn:hover {
+    background-color: #ad6a6c;
+    color: rgb(0, 0, 0);
 }
 
-.padd {
-    padding: 0 20px;
-}
+.section-6 {
+    margin-bottom: 0.5rem;
 
-.jumbotron {
-    padding: 25px;
-    margin-bottom: 0;
-}
-
-.main-text {
-    font-size: 3rem;
-    margin-top: 10px;
-    font-weight: bolder;
-}
-
-.p-text {
-    font-size: 1.2rem;
-    margin-top: 10px;
-}
-
-.images1 {
-    height: 290px;
-    width: 280px;
-    border-radius: 50%;
-    padding: 20px;
-}
-
-.order-btn {
-    margin-bottom: 30px;
 }
 
 .feat-img {
     background-image: url(/assets/images/cupcake1.jpg);
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    background-repeat: no-repeat;
     height: 20vh;
     width: 100%;
-    background-position: center;
-}
-
-.img-fluid {
-    width: 100%;
-}
-
-.about-div {
-    margin-top: 20px;
-    margin-bottom: 25px;
-    padding: 0;
 }
 
 .footer {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
+    padding-bottom: 0;
 }
-
 
 .footer a {
-    padding: 15px;
-    font-size: 2rem;
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: 400;
+    padding: 0 1.5rem;
+    color: #5f6460;
 }
 
-.footer i {
-    color: #47624f;
-}
-
-.footer i:hover {
+.footer a:hover {
     color: #ad6a6c;
 }
 
+.footer-btm {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
 
-/* --------------- ID's --------------- */
+.footer-btm a {
+    color: #5f6460;
+}
+
+/* ------------------ css ID's below */
 
 #quote {
-    font-weight: bolder;
     font-style: italic;
-    font-size: 300%;
+    font-weight: 600;
+    font-size: 3rem;
 }
 
-#welcome {
-    margin-bottom: 20px;
+/* ------------------ media querys below */
+
+@media only screen and (min-width: 999px) {
+    .section-6 {
+        padding: 3rem 4rem 0;
+    }
 }
 
-
-#about-us-1 {
-    padding: 20px;
-}
-
-#weblink {
-    text-decoration: none;
-    text-transform: uppercase;
-    text-shadow: 2px 2px #47624f;
+@media only screen and (min-width: 1500px) {
+    .section-6 {
+        padding: 6rem 6rem 0;
+    }
 }
 
 /* --------------- Gallery styling with CSS Grid--------------- */
 
 .grid {
     display: grid;
+    margin-bottom: 1.5rem;
 }
 
 .grid img {
     max-width: 100%;
     height: auto;
 }
-
-
 
 @media only screen and (min-width: 700px) {
     .grid {
@@ -288,6 +287,11 @@ footer {
 
 /* below is the CSS styling for the form */
 
-form label {
+.form-group label {
     font-weight: 700;
+}
+
+form {
+    border: 0.2rem solid #ad6a6c;
+    margin: 1rem 1rem;
 }

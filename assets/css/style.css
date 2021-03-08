@@ -30,7 +30,7 @@ figure {
     margin-bottom: 0;
 }
 
-/* ------------------ css classes below */
+/* ------------------ classes below */
 
 .padd {
     padding: 2rem 1rem;
@@ -42,7 +42,7 @@ figure {
 }
 
 .navbar-nav li {
-    padding-right: 15px;
+    padding-right: 0.8rem;
 }
 
 .about-img {
@@ -148,7 +148,7 @@ figure {
     }
 }
 
-/* --------------- Gallery styling with CSS Grid--------------- */
+/* ------------------ Gallery styling with CSS Grid */
 
 .grid {
     display: grid;
@@ -285,7 +285,7 @@ figure {
 
 }
 
-/* below is the CSS styling for the form */
+/* ------------------ below is the styling for the form */
 
 .form-group label {
     font-weight: 700;

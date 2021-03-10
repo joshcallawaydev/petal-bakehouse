@@ -2,7 +2,7 @@ Below is the README.md file for Petal Bakehouse.
 
 # Overview
 
-Petal Bakehouse is a local bakery business. Within the project I am demonstrating my understanding of HTML5 and CSS3. I used the framework Bootstrap to help structure the site. Roughly 70% of the site is Bootstrap. I also used CCS Grid within the project with Media Queries to further show my understanding of Front-end web development. I incorporated a Bootstrap JS carousel, to enhance the site aesthetics and used the below color scheme.
+Petal Bakehouse is a local bakery business. Within the project I am demonstrating my understanding of HTML5 and CSS3. I used the framework Bootstrap to help structure the site. Roughly 70% of the site is Bootstrap. I also used CCS Grid within the project with Media Queries to further show my understanding of Front-end web development. The site allows users to interact and control eliments with a bootstrap carousel. This was to enhance the sites interactveness and appeal.
 
 ---
 

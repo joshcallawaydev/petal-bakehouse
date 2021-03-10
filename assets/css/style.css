@@ -63,6 +63,8 @@ figure {
     font-size: 1.5rem;
 }
 
+/* the below background transition was taken from https://css-tricks.com/almanac/properties/t/transition/ */
+
 .section-2 {
     background-color: #f1edee;
     transition: background-color 3s linear;

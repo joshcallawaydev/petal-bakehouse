@@ -1,56 +1,56 @@
 Below is the README.md file for Petal Bakehouse.
 
-<!----- Overview ----->
+#Overview
 
 Petal Bakehouse is a local bakery business. Within the project I am demonstrating my understanding of HTML5 and CSS3. I used the framework Bootstrap to help structure the site. Roughly 70% of the site is Bootstrap. I also used CCS Grid within the project with Media Queries to further show my understanding of Front-end web development. I incorporated a Bootstrap JS carousel, to enhance the site aesthetics and used the below color scheme.
 
-<!--- UX --->
+---
 
-User stories/Objectives
+##UX
+
+###User stories/Objectives
 
 1) First time
 
-As a first time user, I want to understand what the site is for
-As a first time user, I want to be able to easily navigate the site
-As a first time user, i would like to see visuals of what is on offer from the site
+- As a first time user, I want to understand what the site is for
+- As a first time user, I want to be able to easily navigate the site
+- As a first time user, i would like to see visuals of what is on offer from the site
 
 2) Returning
 
-As a returning user, I would like to be able to get to the order section in 3 clicks
-As a returning user, i would like to see your contact information
+- As a returning user, I would like to be able to get to the order section in 3 clicks
+- As a returning user, i would like to see your contact information
 
 3) Frequent user
 
-As a frequent user, I would like to see your social media links.
-As a frequent user, i would like to see a display of new images in one place
+- As a frequent user, I would like to see your social media links.
+- As a frequent user, i would like to see a display of new images in one place
 
-<!--- Design --->
+##Design
 
-I started by taking some notes on paper. High level brainstorming. Features, functionality, pages etc. I then moved to wireframes and html layouts
+###Color scheme.
 
->> Color scheme.
+![my sites color scheme](color_scheme.png)
 
-See color scheme image in testing folder
-
->> Typography
+###Typography
 
 Inter is the font of choice with Helvetica and Sans-serif as fall back fonts should Inter not be imported into the site properly. Inter is a clear and legible font and according to Typewolf, the most popular choice in 2021.
 
 I chose rem as my sizing metric. I feel this is the best fit in 2021 due to its flexabilty as diff base sizes. I have also used percentages, VH or PX where i felt appropriate
 
->> Imagery
+###Imagery
 
-All imagery is imported into Gitpod and was downloaded from Pexels.com. The chosen images were designed to fit the site's niche and catch use attention
+All imagery is imported into Gitpod and was downloaded from Pexels.com. The chosen images were designed to fit the site's niche and catch users attention
 
->> Wireframes/Site preview
+## Wireframes/Site preview
 
-See images in testing folder
+![my sites color scheme](/workspace/petal-bakehouse/assets/testing_imagery/highlevel_mobile_wireframes.png)
 
 The site works seamlessly across all viewport sizes but was built mobile first.
 
 See images in testing_imagery folder for responsiveness testing.
 
-<!--- Features --->
+##Features
 
 . Responsiveness
 . Interactive elements

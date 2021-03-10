@@ -1,14 +1,14 @@
 Below is the README.md file for Petal Bakehouse.
 
-#Overview
+# Overview
 
 Petal Bakehouse is a local bakery business. Within the project I am demonstrating my understanding of HTML5 and CSS3. I used the framework Bootstrap to help structure the site. Roughly 70% of the site is Bootstrap. I also used CCS Grid within the project with Media Queries to further show my understanding of Front-end web development. I incorporated a Bootstrap JS carousel, to enhance the site aesthetics and used the below color scheme.
 
 ---
 
-##UX
+## UX
 
-###User stories/Objectives
+### User stories/Objectives
 
 1) First time
 
@@ -28,17 +28,17 @@ Petal Bakehouse is a local bakery business. Within the project I am demonstratin
 
 ##Design
 
-###Color scheme.
+### Color scheme.
 
-![my sites color scheme](color_scheme.png)
+![alt text](https://github.com/[joshcallawaydev]/[petal-bakehouse]/assets/testing_imagery/colour_scheme.png)
 
-###Typography
+### Typography
 
 Inter is the font of choice with Helvetica and Sans-serif as fall back fonts should Inter not be imported into the site properly. Inter is a clear and legible font and according to Typewolf, the most popular choice in 2021.
 
 I chose rem as my sizing metric. I feel this is the best fit in 2021 due to its flexabilty as diff base sizes. I have also used percentages, VH or PX where i felt appropriate
 
-###Imagery
+### Imagery
 
 All imagery is imported into Gitpod and was downloaded from Pexels.com. The chosen images were designed to fit the site's niche and catch users attention
 

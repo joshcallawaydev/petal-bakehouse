@@ -228,4 +228,8 @@ The steps taken to deploy the site were as follows.
 
 ![An image of the live site](assets/testing_imagery/live_site.png)
 
+## Credit
+
+The transition css effect (style.css row 70) was taken from CSS Tricks - https://css-tricks.com/almanac/properties/t/transition/
+
 **I am available for questions should you have any. Thank you.**

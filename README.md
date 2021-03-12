@@ -200,6 +200,10 @@ In testing I noticed that fixed image backgrounds do not render on some mobile p
 
 ![An image of the fixed image rendering bug on iphone](assets/testing_imagery/fixed_img_bug.jpg)
 
+Once the site was deployed i tested it in dev tools lighthouse. This showed that i had images of large sizes. I have compressed the images but they are still large which is affecting performance. In future and with customer facing sites i would compress the images more. Test below...
+
+![An image of the Dev Tools Lighthouse test](assets/testing_imagery/lighthouse_test.png)
+
 ---
 
 ## Deployment

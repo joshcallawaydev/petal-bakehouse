@@ -30,7 +30,7 @@ Petal Bakehouse is a local bakery business. Within the project I am demonstratin
 
 ### Color scheme.
 
-![3 clolor blocks showcasing the color scheme of the site](assets/testing_imagery/color_scheme.png)
+![3 color blocks showcasing the color scheme of the site. 1) #ffffff 2) #47624f 3) #ad6a6c](assets/testing_imagery/color_scheme.png)
 
 ### Typography
 
@@ -46,12 +46,12 @@ All imagery is imported into Gitpod and was downloaded from Pexels.com. The chos
 
 ## Wireframes/Site preview
 
-![mobile wireframe](assets/testing_imagery/highlevel_mobile_wireframes.png) 
-![large wireframe](assets/testing_imagery/web_wireframe_pt1.png)
-![large wireframe pt2](assets/testing_imagery/web_wireframe_pt2.png) 
-![large wireframe pt3](assets/testing_imagery/web_wireframe_pt3.png) 
-![form view wire frame](assets/testing_imagery/form_view.png) 
-![gallery view wirefrmae](assets/testing_imagery/gallery_view.png)
+![Mobile wireframe](assets/testing_imagery/highlevel_mobile_wireframes.png) 
+![Large wireframe pt1](assets/testing_imagery/web_wireframe_pt1.png)
+![Large wireframe pt2](assets/testing_imagery/web_wireframe_pt2.png) 
+![Large wireframe pt3](assets/testing_imagery/web_wireframe_pt3.png) 
+![Form view wireframe](assets/testing_imagery/form_view.png) 
+![Gallery view wirefrmae](assets/testing_imagery/gallery_view.png)
 
 
 ---
@@ -85,7 +85,7 @@ The site works seamlessly across all viewport sizes but was built mobile first.
 
 The image below does not represent the phone size at which the site was designed at. Just a representation that mobile first was the direction.
 
-![a image of the site at a standard mobile size](assets/testing_imagery/phone_size_2.png) 
+![An image of the site at a standard mobile size](assets/testing_imagery/phone_size_2.png) 
 
 VS Code - at the half waypoint, and after some initial testing, I decided to make some structural changes to the site to improve the visual aesthetics and flow. In an effort to prevent any confusion, I migrated the code to VSC, made the structural changes there and then migrated it back in sections. This way I could test the changes and mitigate any styling issues that arose.
 
@@ -95,9 +95,9 @@ In effort to improve UX/UI i regularly tested the site functionality and respons
 
 I tested the site on chrome, safari and firefox and across all sizes in dev tools.
 
-![alt text](assets/testing_imagery/phone_size_2.png) 
-![alt text](assets/testing_imagery/fire_fox_testing.png)
-![alt text](assets/testing_imagery/dev_tools_testing.png)  
+![Site rendering image at mobile size](assets/testing_imagery/phone_size_2.png) 
+![Site view through firefox](assets/testing_imagery/fire_fox_testing.png)
+![Site view through dev tools](assets/testing_imagery/dev_tools_testing.png)  
 
 I ensured my tests were in line with the key goals and objectives of the site.
 
@@ -109,31 +109,31 @@ As a first time user, I want to understand what the site is for
 
 - Early within index.html users are exposed to ‘what we offer’ to add additional context.
 
-![alt text](assets/testing_imagery/call_to_action.png) 
+![An image of the call to action button](assets/testing_imagery/call_to_action.png) 
 
 - Hero image w/ text to add further context and excitement.
 
-![alt text](assets/testing_imagery/hero_img.png) 
+![A view of the hero image. A cupcake](assets/testing_imagery/hero_img.png) 
 
 As a first time user, I want to be able to easily navigate the site
 
 - Upon entry, users are greeted with a navigation bar.
 
-![alt text](assets/testing_imagery/nav.png) 
+![An image of the nav bar](assets/testing_imagery/nav.png) 
 
 - Call to action buttons available within the carousel and after ‘what we offer’.
 
-![alt text](assets/testing_imagery/call_to_action.png) 
+![An image of the call to action button](assets/testing_imagery/call_to_action.png) 
 
 As a first time user, i would like to see visuals of what is on offer from the site
 
 - A carousel is present within index.html.
 
-![alt text](assets/testing_imagery/carousel_img.png) 
+![An image of the image carousel](assets/testing_imagery/carousel_img.png) 
 
 - A easily accessible gallery page.
 
-![alt text](assets/testing_imagery/gallery.png) 
+![An image of the gallery page](assets/testing_imagery/gallery.png) 
 
 2) Returning
 
@@ -141,14 +141,14 @@ As a returning user, I would like to be able to get to the order section in 3 cl
 
 - Click 1) order (scroll down to form) 2) submit.
 
-![alt text](assets/testing_imagery/form_one.png)
-![alt text](assets/testing_imagery/form_two.png)
+![An image of the nav bar](assets/testing_imagery/form_one.png)
+![An image of the order form](assets/testing_imagery/form_two.png)
 
 As a returning user, i would like to see your contact information
 
 - All contact information is within the footer and accessible from all pages.
 
-![alt text](assets/testing_imagery/footer.png) 
+![An image of the footer completed](assets/testing_imagery/footer.png) 
 
 
 3) Frequent user
@@ -156,36 +156,54 @@ As a frequent user, I would like to see your social media links.
 
 - All social links in footer across all pages. Users have come to expect this with established sites.
 
-![alt text](assets/testing_imagery/footer.png)
+![An image of the footer completed](assets/testing_imagery/footer.png)
 
 As a frequent user, i would like to see a display of new images in one place
 
 - A easily updatable carousel available on home page (index.html) and a gallery is one click away from nav and also the CTA button.
 
-![alt text](assets/testing_imagery/carousel_img.png)
-![alt text](assets/testing_imagery/gallery.png) 
+![An image of the carousel](assets/testing_imagery/carousel_img.png)
+![An image of the gallery](assets/testing_imagery/gallery.png) 
 
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 ### - HTML Results - pass
 
-![alt text](assets/testing_imagery/index.html_validator_pass.png) 
+![An image of the pass in W3C HTML validator](assets/testing_imagery/index.html_validator_pass.png) 
 
 See folder for other html pass confimration images.
 
 ### - CSS Results - pass
 
-![alt text](assets/testing_imagery/css_validator_2.png)
+![An image of the CSS pass in CSS validator](assets/testing_imagery/css_validator_2.png)
 
 In testing I noticed that fixed image backgrounds do not render on some mobile phones. In a live project I would remove this with a media query but after seeking advice, and hearing that your testing and review is done on desktop and dev tools only, I decided to note it here only. See below image.
 
-![alt text](assets/testing_imagery/fixed_img_bug.jpg)
+![An image of the fixed image rendering bug on iphone](assets/testing_imagery/fixed_img_bug.jpg)
 
 ---
 
 ## Deployment
 
 I deployed the site with GitHub pages. I have also researched Netlify for its front end deployment capability. I would use this should GitHub pages be unavailable.
+
+The steps taken to deploy the site were as follows.
+
+1) Update all image file locations to standard formatting. (See Git commit's for reference)
+2) Save all files and commit final versions to GitHub repository
+3) From GitHub repository, navigate to 'Settings'
+
+![An image of the GitHub settings](assets/testing_imagery/github_settings.png)
+
+4) Scroll down until you find the section 'GitHub Pages'
+
+![An image of the correct GitHub pages settings](assets/testing_imagery/setting_github_pages_view.png)
+
+5) Under 'Source', change branch to 'Master' *this should populate the '/(root)' file. Keep this as is*
+6) Hit 'Save'.
+7) *Wait a few minutes for the changes to take affect* Now load the prompted URL.
+
+![An image of the live site](assets/testing_imagery/live_site.png)
 
 **I am available for questions should you have any. Thank you.**

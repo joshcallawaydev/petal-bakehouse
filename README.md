@@ -230,6 +230,7 @@ The steps taken to deploy the site were as follows.
 
 ## Credit
 
-The transition css effect (style.css row 70) was taken from CSS Tricks - https://css-tricks.com/almanac/properties/t/transition/
+The transition css effect (style.css row 70) idea was taken from CSS Tricks - https://css-tricks.com/almanac/properties/t/transition/
+I got high level guidance for the Gallery's CSS Grid from a youtube tutorial - https://www.youtube.com/watch?v=68O6eOGAGqA&t=16s although my grid layout is different.
 
 **I am available for questions should you have any. Thank you.**

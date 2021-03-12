@@ -34,7 +34,7 @@ Petal Bakehouse is a local bakery business. Within the project I am demonstratin
 
 ### Typography
 
-Inter is the font of choice with Helvetica and Sans-serif as fall back fonts should Inter not be imported into the site properly. Inter is a clear and legible font and according to Typewolf, the most popular choice in 2021. It also renders well on all viewport sizes.
+Lato is the font of choice with Helvetica and Sans-serif as fall back fonts should Lato not be imported into the site properly. Lato is a clear and legible font and according to google, one of the most popular choices in 2021. It also renders well on all viewport sizes.
 
 I chose rem as my sizing metric. I feel this is the best fit in 2021 due to its flexabilty at different base sizes. I have also used percentages, VH or PX where i felt appropriate.
 

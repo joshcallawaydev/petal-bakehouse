@@ -2,13 +2,11 @@ Below is the README.md file for Petal Bakehouse.
 
 # Overview
 
-Petal Bakehouse is a local bakery business. Within the project I am demonstrating my understanding of HTML5 and CSS3. I used the framework Bootstrap to help structure the site. Roughly 70% of the site is Bootstrap. I also used CCS Grid within the project with Media Queries to further show my understanding of Front-end web development. The site allows users to interact and control eliments with a bootstrap carousel. This was to enhance the sites interactveness and appeal.
+Petal Bakehouse is a local bakery business. Within the project I am demonstrating my understanding of HTML5 and CSS3. I used the framework Bootstrap to help structure the site. Roughly 70% of the site is Bootstrap. I also used CCS Grid within the project with Media Queries to further show my understanding of Front-end web development. The site allows users to interact and control eliments with a bootstrap carousel. This was to enhance the sites interactveness and appeal. The site is designed to showcase a local small business bakery.
 
 ---
 
 ## UX
-
-### User stories/Objectives
 
 1) First time
 
@@ -28,17 +26,17 @@ Petal Bakehouse is a local bakery business. Within the project I am demonstratin
 
 ---
 
-##Design
+## Design
 
 ### Color scheme.
 
-![alt text](assets/testing_imagery/color_scheme.png)
+![3 clolor blocks showcasing the color scheme of the site](assets/testing_imagery/color_scheme.png)
 
 ### Typography
 
-Inter is the font of choice with Helvetica and Sans-serif as fall back fonts should Inter not be imported into the site properly. Inter is a clear and legible font and according to Typewolf, the most popular choice in 2021.
+Inter is the font of choice with Helvetica and Sans-serif as fall back fonts should Inter not be imported into the site properly. Inter is a clear and legible font and according to Typewolf, the most popular choice in 2021. It also renders well on all viewport sizes.
 
-I chose rem as my sizing metric. I feel this is the best fit in 2021 due to its flexabilty as diff base sizes. I have also used percentages, VH or PX where i felt appropriate
+I chose rem as my sizing metric. I feel this is the best fit in 2021 due to its flexabilty at different base sizes. I have also used percentages, VH or PX where i felt appropriate.
 
 ### Imagery
 
@@ -58,12 +56,6 @@ All imagery is imported into Gitpod and was downloaded from Pexels.com. The chos
 
 ---
 
-
-## Features
-
-- Responsiveness
-- Interactive elements
-
 ## Technology
 
 ### Languages
@@ -72,7 +64,7 @@ All imagery is imported into Gitpod and was downloaded from Pexels.com. The chos
 - CSS3
 - Javascript (bootstrap)
 
-Frameworks/Features
+### Frameworks/Features
 
 - Bootstrap v4.6
 - CSS Gris
@@ -82,18 +74,22 @@ Frameworks/Features
 - Balsamiq
 - Hover:css
 - Transition:css
-
-## Testing
-
-Testing was compiled throughout the project in effort to minimise bugs and styling issues.
+- Responsiveness
+- Interactive elements (carousel)
 
 # Testing
 
+Testing was compiled throughout the project in effort to minimise bugs and styling issues.
+
 The site works seamlessly across all viewport sizes but was built mobile first.
 
-![alt text](assets/testing_imagery/phone_size_2.png) 
+The image below does not represent the phone size at which the site was designed at. Just a representation that mobile first was the direction.
+
+![a image of the site at a standard mobile size](assets/testing_imagery/phone_size_2.png) 
 
 VS Code - at the half waypoint, and after some initial testing, I decided to make some structural changes to the site to improve the visual aesthetics and flow. In an effort to prevent any confusion, I migrated the code to VSC, made the structural changes there and then migrated it back in sections. This way I could test the changes and mitigate any styling issues that arose.
+
+![VS Code screen shot](assets/testing_imagery/vscode.png)
 
 In effort to improve UX/UI i regularly tested the site functionality and responsiveness. This way I could see UX/UI issues first hand and deploy changes in accordance with our principles. I also drafted in my partner to attempt to break the site's viewing experience.
 

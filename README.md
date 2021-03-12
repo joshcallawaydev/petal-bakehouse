@@ -42,7 +42,23 @@ I chose rem as my sizing metric. I feel this is the best fit in 2021 due to its 
 
 ### Imagery
 
-All imagery is imported into Gitpod and was downloaded from Pexels.com. The chosen images were designed to fit the site's niche and catch users attention
+All imagery is imported into Gitpod and was downloaded from Pexels.com. The chosen images were designed to fit the site's niche and catch users attention. See below for individual file URLs...
+
+- https://images.pexels.com/photos/1359330/pexels-photo-1359330.jpeg?cs=srgb&dl=pexels-cats-coming-1359330.jpg&fm=jpg
+- https://www.pexels.com/photo/homemade-fresh-baked-bread-on-table-4495761/
+- https://images.pexels.com/photos/2067436/pexels-photo-2067436.jpeg?cs=srgb&dl=pexels-marta-dzedyshko-2067436.jpg&fm=jpg
+- https://images.pexels.com/photos/1028714/pexels-photo-1028714.jpeg?cs=srgb&dl=pexels-acharaporn-kamornboonyarush-1028714.jpg&fm=jpg
+- https://www.pexels.com/photo/cheesecake-1126359/
+- https://www.pexels.com/photo/brown-and-white-cake-on-white-ceramic-plate-3185509/
+- https://images.pexels.com/photos/227432/pexels-photo-227432.jpeg?cs=srgb&dl=pexels-antonio-quagliata-227432.jpg&fm=jpg
+- https://images.pexels.com/photos/1055272/pexels-photo-1055272.jpeg?cs=srgb&dl=pexels-vojtech-okenka-1055272.jpg&fm=jpg
+- https://images.pexels.com/photos/6087672/pexels-photo-6087672.jpeg?cs=srgb&dl=pexels-koolshooters-6087672.jpg&fm=jpg
+- https://images.pexels.com/photos/1346345/pexels-photo-1346345.jpeg?cs=srgb&dl=pexels-alisha-mishra-1346345.jpg&fm=jpg
+- https://images.pexels.com/photos/3992206/pexels-photo-3992206.jpeg?cs=srgb&dl=pexels-cottonbro-3992206.jpg&fm=jpg
+- https://www.pexels.com/photo/bakery-baking-bread-chocolate-267308/
+- https://images.pexels.com/photos/3768146/pexels-photo-3768146.jpeg?cs=srgb&dl=pexels-andrea-piacquadio-3768146.jpg&fm=jpg
+- https://images.pexels.com/photos/3656119/pexels-photo-3656119.jpeg?cs=srgb&dl=pexels-tijana-drndarski-3656119.jpg&fm=jpg
+- https://images.pexels.com/photos/1756061/pexels-photo-1756061.jpeg?cs=srgb&dl=pexels-mariana-kurnyk-1756061.jpg&fm=jpg
 
 ---
 

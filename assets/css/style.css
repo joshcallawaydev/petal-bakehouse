@@ -297,11 +297,11 @@ figure {
 
 /* ------------------ below is the styling for the form */
 
-.form-group label {
-    font-weight: 700;
-}
-
 form {
     border: 0.2rem solid #ad6a6c;
     margin: 1rem 1rem;
+}
+
+.form-group label {
+    font-weight: 700;
 }

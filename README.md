@@ -64,12 +64,31 @@ All imagery is imported into Gitpod and was downloaded from Pexels.com. The chos
 
 ## Wireframes/Site preview
 
-![Mobile wireframe](assets/testing_imagery/highlevel_mobile_wireframes.png) 
+The site was build mobile first.
+
+![Mobile wireframe of home page](assets/testing_imagery/highlevel_mobile_wireframes.png)
+![Mobile wireframe of gallery](assets/testing_imagery/gallery_mobile.png)
+![Mobile wireframe of order form](assets/testing_imagery/order_form_mobile.png)
+
+I also done rough designs of the site at large viewport size (desktop)
+
+Homepage
+
 ![Large wireframe pt1](assets/testing_imagery/web_wireframe_pt1.png)
 ![Large wireframe pt2](assets/testing_imagery/web_wireframe_pt2.png) 
 ![Large wireframe pt3](assets/testing_imagery/web_wireframe_pt3.png) 
-![Form view wireframe](assets/testing_imagery/form_view.png) 
+
+Gallery
+
 ![Gallery view wirefrmae](assets/testing_imagery/gallery_view.png)
+
+Form
+
+![Form view wireframe](assets/testing_imagery/form_view.png)
+
+The homepage and gallery at tablet size. Form renders the same at all viewport sizes.
+
+![An image of the homepage at tablet size](assets/testing_imagery/homepage_tablet.png)
 ![An image of the gallery at tablet size](assets/testing_imagery/tablet_size_gallery.png)
 
 ---
